@@ -1,0 +1,242 @@
+/********************************************************
+Heading Style
+********************************************************/
+h1 {
+    font-family: 'Audiowide';
+    font-size: 200%;
+    color: blue;
+    text-align: left;
+    letter-spacing: .1em;
+    padding-top: .8%;
+    padding-bottom: .8%;
+    padding-left: .8%;
+}
+h2 {
+    font-size: 120%;
+    color: black;
+    text-align: left;
+    font-style: italic;
+    vertical-align: top;
+    padding-left: .8%;
+}
+
+h3 {
+    font-size: 100%;
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+/********************************************************
+Table Style
+********************************************************/
+
+#customerID{
+	font-size: 100%;
+	color: black;
+	text-align: left;
+	text-transform: uppercase;	
+	padding-left: .8%;
+}
+
+.small {
+	width: 50%;	
+}
+
+table {
+	width: 100%;
+}
+
+table, td, tr, th {
+	border: 1px solid #999;
+}
+
+td {
+	text-align: center;
+	padding: .5em;
+	font-size: 80%;	
+}
+
+th {
+	text-align: center;
+	background-color: #b8b8b8;
+}
+
+th:nth-child(3){
+	text-align: left;
+	padding-left: .5em;
+}
+
+tr{
+	white-space: nowrap;
+}
+
+tr:nth-child(even) {
+	background-color: #fbfbfb;
+}
+
+tr:hover {
+	background-color: #cfe5f8;
+}
+
+.left {
+	text-align: left;
+}
+
+.middle {
+	text-align: middle;
+}
+
+.right {
+	text-align: right;
+}
+
+#last {
+	font-weight: bold;
+	font-size: 120%;
+	color: #34a5da;
+}
+
+footer {
+	font-size: 100%;
+	color: black;
+	text-align: center;
+	font-style: normal;
+	padding-top: 1.2em;
+}
+
+#submit1 {
+	width: 100%;
+}
+
+#submit2 {
+	width: 20%;
+}
+		
+input {
+	display: block;
+}
+	
+input:focus {
+	background-color: #ebfef9;
+	outline: none;
+}
+	
+
+input[type=text] {
+	height: 2em;
+	vertical-align: center;
+}
+input[type=password] {
+	height: 2em;
+	vertical-align: center;
+}
+	
+input[type=submit] {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	color: #ffffff;
+	background-color: #626262;
+	border: none;
+	border-radius: 5px;
+	padding: 2%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	text-transform: uppercase;
+}
+
+	
+input[type=submit]:hover {
+	color: #665544;
+	background-color: #b8b8b8;
+	cursor: pointer;	
+}
+
+
+select{
+	font-size: 100%;
+	vertical-align: center;
+	width: 100%;
+	color: black;
+}
+
+
+
+
+
+fieldset {
+    color: black;
+    background-color: #fbfbfb;
+    width: 35%;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: -webkit-center;
+    margin-bottom: 4%;
+    margin-left: 33%;
+}
+
+legend {
+    font-size: larger;
+    color: white;
+    background-color: rgba(54, 87, 146, 0.93);
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 22px;
+}
+	
+label , date,time, name, role {
+	text-align: left;
+	display: block; 
+	padding-bottom: 1.5%;
+	padding-top: 4%;
+	width: 100%;
+}
+
+#center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+
+/********************************************************
+Navigation Style
+********************************************************/
+.navigation {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+    .navigation li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        vertical-align: bottom;
+    }
+
+    .navigation a {
+        color: blue;
+        display: block;
+        overflow: hidden;
+        padding: 0.99em 1.5em;
+        position: relative;
+        text-decoration: none;
+        -moz-transition: background 0.4s ease-out;
+        -o-transition: background 0.4s ease-out;
+        -webkit-transition: background 0.4s ease-out;
+        transition: background 0.4s ease-out;
+    }
+
+        .navigation a:hover {
+            background-image: linear-gradient( rgba(255, 255, 255, 100) 0%, rgba(153, 204, 255, 0.5) 90%
+            /*blue 90%*/
+            );
+            overflow: hidden;
+            position: relative;
+        }
